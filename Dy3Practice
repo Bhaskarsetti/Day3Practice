@@ -1,0 +1,28 @@
+package TrailJavaPractice;
+
+public class Practice3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Data Type coversions
+		String str = "9885";
+		int x = 988;
+		
+		//String to int
+		int a = Integer.parseInt(str);
+		System.out.println(a);
+		
+		// String to int
+		int b = Integer.valueOf(str);
+		System.out.println(b);
+		
+		// Integer to String
+		String y  =Integer.toString(x);
+		String z = String.valueOf(x);
+		System.out.println(y);
+		System.out.println(z);
+		
+
+	}
+
+}
